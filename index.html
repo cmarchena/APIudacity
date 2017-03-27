@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Moving Companion</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <form id="form-container" class="form-container">
+        <label for="street">Calle: </label><input type="text" id="street" value="">
+        <label for="city">Ciudad: </label><input type="text" id="city" value="">
+        <button id="submit-btn">Enviar</button>
+    </form>
+
+    <hr>
+
+    <h2 id="greeting" class="greeting">¿Dónde quieres vivir?</h2>
+
+
+    <div class="wikipedia-container">
+        <h3 id="wikipedia-header">Artículos Wikipedia</h3>
+        <ul id="wikipedia-links">Indica una dirección para poder mostrarte artículos aquí</ul>
+    </div>
+
+
+    <div class="nytimes-container">
+        <h3 id="nytimes-header">Artículos del New York Times</h3>
+        <ul id="nytimes-articles" class="article-list">¿Qué ocurre en tu nueva ciudad? ¡Introduce una dirección y el New York Times te lo dirá!</ul>
+    </div>
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
